@@ -1,0 +1,3 @@
+- Mathematica Code Linear Programming
+- C++ Linear Programming
+- Text File Containing Triples
