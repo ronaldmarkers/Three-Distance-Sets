@@ -1,0 +1,104 @@
+﻿  program.cc
+C:\or-tools\include\ortools\linear_solver\linear_solver.pb.h(8642,45): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'program.cc')
+  
+C:\or-tools\include\ortools\linear_solver\linear_solver.pb.h(8670,47): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'program.cc')
+  
+C:\or-tools\include\ortools\linear_solver\linear_solver.h(324,52): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'program.cc')
+  
+C:\or-tools\include\ortools\linear_solver\linear_solver.h(394,56): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'program.cc')
+  
+C:\Users\raulm\source\repos\ThreeDistanceSets\ThreeDIstanceSets\program.cc(40,72): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\raulm\source\repos\ThreeDistanceSets\ThreeDIstanceSets\program.cc(134,31): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\or-tools\include\absl\container\internal\raw_hash_set.h(1927,69): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+  (compiling source file 'program.cc')
+      C:\or-tools\include\absl\container\internal\raw_hash_set.h(1927,69):
+      the template instantiation context (the oldest one first) is
+          C:\or-tools\include\ortools\linear_solver\linear_expr.h(162,50):
+          see reference to class template instantiation 'absl::lts_20240722::flat_hash_map<const operations_research::MPVariable *,double,absl::lts_20240722::container_internal::HashEq<K,void>::Hash,absl::lts_20240722::container_internal::HashEq<K,void>::Eq,std::allocator<std::pair<const K,V>>>' being compiled
+          with
+          [
+              K=const operations_research::MPVariable *,
+              V=double
+          ]
+          C:\or-tools\include\absl\container\flat_hash_map.h(129,40):
+          see reference to class template instantiation 'absl::lts_20240722::container_internal::raw_hash_map<absl::lts_20240722::container_internal::FlatHashMapPolicy<K,V>,Hash,Eq,Allocator>' being compiled
+          with
+          [
+              K=const operations_research::MPVariable *,
+              V=double,
+              Hash=absl::lts_20240722::container_internal::HashEq<const operations_research::MPVariable *,void>::Hash,
+              Eq=absl::lts_20240722::container_internal::HashEq<const operations_research::MPVariable *,void>::Eq,
+              Allocator=std::allocator<std::pair<const operations_research::MPVariable *const ,double>>
+          ]
+          C:\or-tools\include\absl\container\internal\raw_hash_map.h(33,29):
+          see reference to class template instantiation 'absl::lts_20240722::container_internal::raw_hash_set<Policy,Hash,Eq,Alloc>' being compiled
+          with
+          [
+              Policy=absl::lts_20240722::container_internal::FlatHashMapPolicy<const operations_research::MPVariable *,double>,
+              Hash=absl::lts_20240722::container_internal::HashEq<const operations_research::MPVariable *,void>::Hash,
+              Eq=absl::lts_20240722::container_internal::HashEq<const operations_research::MPVariable *,void>::Eq,
+              Alloc=std::allocator<std::pair<const operations_research::MPVariable *const ,double>>
+          ]
+          C:\or-tools\include\absl\container\internal\raw_hash_set.h(3600,39):
+          while compiling class template member function 'void absl::lts_20240722::container_internal::raw_hash_set<Policy,Hash,Eq,Alloc>::resize_impl(absl::lts_20240722::container_internal::CommonFields &,size_t,absl::lts_20240722::container_internal::HashtablezInfoHandle)'
+          with
+          [
+              Policy=absl::lts_20240722::container_internal::FlatHashMapPolicy<const operations_research::MPVariable *,double>,
+              Hash=absl::lts_20240722::container_internal::HashEq<const operations_research::MPVariable *,void>::Hash,
+              Eq=absl::lts_20240722::container_internal::HashEq<const operations_research::MPVariable *,void>::Eq,
+              Alloc=std::allocator<std::pair<const operations_research::MPVariable *const ,double>>
+          ]
+              C:\or-tools\include\absl\container\internal\raw_hash_set.h(3586,30):
+              see the first reference to 'absl::lts_20240722::container_internal::raw_hash_set<Policy,Hash,Eq,Alloc>::resize_impl' in 'absl::lts_20240722::container_internal::raw_hash_set<Policy,Hash,Eq,Alloc>::resize'
+          with
+          [
+              Policy=absl::lts_20240722::container_internal::FlatHashMapPolicy<const operations_research::MPVariable *,double>,
+              Hash=absl::lts_20240722::container_internal::HashEq<const operations_research::MPVariable *,void>::Hash,
+              Eq=absl::lts_20240722::container_internal::HashEq<const operations_research::MPVariable *,void>::Eq,
+              Alloc=std::allocator<std::pair<const operations_research::MPVariable *const ,double>>
+          ]
+              C:\or-tools\include\absl\container\internal\raw_hash_set.h(2617,13):
+              see the first reference to 'absl::lts_20240722::container_internal::raw_hash_set<Policy,Hash,Eq,Alloc>::resize' in 'absl::lts_20240722::container_internal::raw_hash_set<Policy,Hash,Eq,Alloc>::raw_hash_set'
+          with
+          [
+              Policy=absl::lts_20240722::container_internal::FlatHashMapPolicy<const operations_research::MPVariable *,double>,
+              Hash=absl::lts_20240722::container_internal::HashEq<const operations_research::MPVariable *,void>::Hash,
+              Eq=absl::lts_20240722::container_internal::HashEq<const operations_research::MPVariable *,void>::Eq,
+              Alloc=std::allocator<std::pair<const operations_research::MPVariable *const ,double>>
+          ]
+              C:\or-tools\include\absl\container\internal\raw_hash_map.h(65,3):
+              see the first reference to 'absl::lts_20240722::container_internal::raw_hash_set<Policy,Hash,Eq,Alloc>::raw_hash_set' in 'absl::lts_20240722::container_internal::raw_hash_map<absl::lts_20240722::container_internal::FlatHashMapPolicy<K,V>,Hash,Eq,Allocator>::raw_hash_map'
+          with
+          [
+              Policy=absl::lts_20240722::container_internal::FlatHashMapPolicy<const operations_research::MPVariable *,double>,
+              Hash=absl::lts_20240722::container_internal::HashEq<const operations_research::MPVariable *,void>::Hash,
+              Eq=absl::lts_20240722::container_internal::HashEq<const operations_research::MPVariable *,void>::Eq,
+              Alloc=std::allocator<std::pair<const operations_research::MPVariable *const ,double>>
+          ]
+          and
+          [
+              K=const operations_research::MPVariable *,
+              V=double,
+              Hash=absl::lts_20240722::container_internal::HashEq<const operations_research::MPVariable *,void>::Hash,
+              Eq=absl::lts_20240722::container_internal::HashEq<const operations_research::MPVariable *,void>::Eq,
+              Allocator=std::allocator<std::pair<const operations_research::MPVariable *const ,double>>
+          ]
+          C:\or-tools\include\absl\container\internal\raw_hash_set.h(3629,23):
+          see reference to function template instantiation 'bool absl::lts_20240722::container_internal::HashSetResizeHelper::InitializeSlots<std::allocator<char>,16,true,true,8>(absl::lts_20240722::container_internal::CommonFields &,Alloc,absl::lts_20240722::container_internal::ctrl_t,size_t,size_t)' being compiled
+          with
+          [
+              Alloc=std::allocator<char>
+          ]
+          C:\or-tools\include\absl\container\internal\raw_hash_set.h(2040,15):
+          see reference to function template instantiation 'absl::lts_20240722::container_internal::HashtablezInfoHandle absl::lts_20240722::container_internal::SampleHashtablezInfo<true>(size_t,size_t,size_t,size_t,bool,absl::lts_20240722::container_internal::HashtablezInfoHandle,absl::lts_20240722::container_internal::CommonFields &)' being compiled
+  
+  Generating code
+  1 of 379 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  ThreeDIstanceSets.vcxproj -> C:\Users\raulm\source\repos\ThreeDistanceSets\x64\Release\ThreeDIstanceSets.exe
